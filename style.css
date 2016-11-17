@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'textilpflege';
-  src:  url('fonts/textilpflege.eot?woh9xu');
-  src:  url('fonts/textilpflege.eot?woh9xu#iefix') format('embedded-opentype'),
-    url('fonts/textilpflege.ttf?woh9xu') format('truetype'),
-    url('fonts/textilpflege.woff?woh9xu') format('woff'),
-    url('fonts/textilpflege.svg?woh9xu#textilpflege') format('svg');
+  src:  url('fonts/textilpflege.eot?dtgfw3');
+  src:  url('fonts/textilpflege.eot?dtgfw3#iefix') format('embedded-opentype'),
+    url('fonts/textilpflege.ttf?dtgfw3') format('truetype'),
+    url('fonts/textilpflege.woff?dtgfw3') format('woff'),
+    url('fonts/textilpflege.svg?dtgfw3#textilpflege') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="t_icon-"], [class*=" t_icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'textilpflege' !important;
   speak: none;
@@ -24,185 +24,148 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-waschen:before {
+.t_icon-waschen:before {
   content: "\e900";
 }
-.icon-nicht_waschen:before {
+.t_icon-nicht_waschen:before {
   content: "\e901";
 }
-.icon-handwaesche .path1:before {
+.t_icon-handwaesche:before {
   content: "\e902";
-  color: rgb(255, 255, 255);
 }
-.icon-handwaesche .path2:before {
-  content: "\e903";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-handwaesche .path3:before {
-  content: "\e904";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-handwaesche .path4:before {
-  content: "\e905";
-  margin-left: -1em;
-  color: rgb(20, 9, 17);
-}
-.icon-handwaesche .path5:before {
-  content: "\e906";
-  margin-left: -1em;
-  color: rgb(27, 12, 22);
-}
-.icon-waschen_30ss:before {
+.t_icon-waschen_30ss:before {
   content: "\e907";
 }
-.icon-waschen_30s:before {
+.t_icon-waschen_30s:before {
   content: "\e908";
 }
-.icon-waschen_30:before {
+.t_icon-waschen_30:before {
   content: "\e909";
 }
-.icon-waschen_40ss:before {
+.t_icon-waschen_40ss:before {
   content: "\e90a";
 }
-.icon-waschen_40s:before {
+.t_icon-waschen_40s:before {
   content: "\e90b";
 }
-.icon-waschen_40:before {
+.t_icon-waschen_40:before {
   content: "\e90c";
 }
-.icon-waschen_50s:before {
+.t_icon-waschen_50s:before {
   content: "\e90d";
 }
-.icon-waschen_50:before {
+.t_icon-waschen_50:before {
   content: "\e90e";
 }
-.icon-waschen_60s:before {
+.t_icon-waschen_60s:before {
   content: "\e90f";
 }
-.icon-waschen_60:before {
+.t_icon-waschen_60:before {
   content: "\e910";
 }
-.icon-waschen_70s:before {
+.t_icon-waschen_70s:before {
   content: "\e911";
 }
-.icon-waschen_70:before {
+.t_icon-waschen_70:before {
   content: "\e912";
 }
-.icon-waschen_95s:before {
+.t_icon-waschen_95s:before {
   content: "\e913";
 }
-.icon-waschen_95:before {
+.t_icon-waschen_95:before {
   content: "\e914";
 }
-.icon-bleichen:before {
+.t_icon-bleichen:before {
   content: "\e915";
 }
-.icon-nicht_bleichen:before {
-  content: "\e916";
+.t_icon-nicht_bleichen:before {
+  content: "\e903";
 }
-.icon-sauerstoffbleichen:before {
+.t_icon-sauerstoffbleichen:before {
   content: "\e917";
 }
-.icon-trommeltrocknen:before {
+.t_icon-trommeltrocknen:before {
   content: "\e918";
 }
-.icon-nicht_trommeltrocknen:before {
+.t_icon-nicht_trommeltrocknen:before {
   content: "\e919";
 }
-.icon-trommeltrocknen_1 .path1:before {
-  content: "\e91a";
-  color: rgb(0, 0, 0);
+.t_icon-trommeltrocknen_1:before {
+  content: "\e905";
 }
-.icon-trommeltrocknen_1 .path2:before {
-  content: "\e91b";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-trommeltrocknen_1 .path3:before {
-  content: "\e91c";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-trommeltrocknen_1 .path4:before {
-  content: "\e91d";
-  margin-left: -1em;
-  color: rgb(20, 9, 17);
-}
-.icon-trommeltrocknen_2:before {
+.t_icon-trommeltrocknen_2:before {
   content: "\e91e";
 }
-.icon-buegeln:before {
+.t_icon-buegeln:before {
   content: "\e91f";
 }
-.icon-nicht_buegeln:before {
+.t_icon-nicht_buegeln:before {
   content: "\e920";
 }
-.icon-buegeln_1:before {
+.t_icon-buegeln_1:before {
   content: "\e921";
 }
-.icon-buegeln_2:before {
+.t_icon-buegeln_2:before {
   content: "\e922";
 }
-.icon-buegeln_3:before {
+.t_icon-buegeln_3:before {
   content: "\e923";
 }
-.icon-professionelle_reinigung:before {
+.t_icon-professionelle_reinigung:before {
   content: "\e924";
 }
-.icon-nicht_chemisch_reinigen:before {
+.t_icon-nicht_chemisch_reinigen:before {
   content: "\e925";
 }
-.icon-professionelle_reinigung_fs:before {
+.t_icon-professionelle_reinigung_fs:before {
   content: "\e926";
 }
-.icon-professionelle_reinigung_f:before {
+.t_icon-professionelle_reinigung_f:before {
   content: "\e927";
 }
-.icon-professionelle_reinigung_pss:before {
+.t_icon-professionelle_reinigung_pss:before {
   content: "\e928";
 }
-.icon-professionelle_reinigung_ps:before {
+.t_icon-professionelle_reinigung_ps:before {
   content: "\e929";
 }
-.icon-Professionelle_reinigung_p:before {
+.t_icon-Professionelle_reinigung_p:before {
   content: "\e92a";
 }
-.icon-nicht_nassreinigen:before {
-  content: "\e92b";
+.t_icon-nicht_nassreinigen:before {
+  content: "\e904";
 }
-.icon-professionelle_reinigung_wss:before {
+.t_icon-professionelle_reinigung_wss:before {
   content: "\e92c";
 }
-.icon-professionelle_reinigung_ws:before {
+.t_icon-professionelle_reinigung_ws:before {
   content: "\e92d";
 }
-.icon-professionelle_reinigung_w:before {
+.t_icon-professionelle_reinigung_w:before {
   content: "\e92e";
 }
-.icon-trocknen:before {
+.t_icon-trocknen:before {
   content: "\e92f";
 }
-.icon-trocknen_liegend_im_schatten:before {
+.t_icon-trocknen_liegend_im_schatten:before {
   content: "\e930";
 }
-.icon-trocknen_liegend:before {
+.t_icon-trocknen_liegend:before {
   content: "\e931";
 }
-.icon-trocknen_tropfnass_im_schatten:before {
+.t_icon-trocknen_tropfnass_im_schatten:before {
   content: "\e932";
 }
-.icon-trocknen_tropfnass:before {
+.t_icon-trocknen_tropfnass:before {
   content: "\e933";
 }
-.icon-trocknen_leine_im_schatten:before {
+.t_icon-trocknen_leine_im_schatten:before {
   content: "\e934";
 }
-.icon-trocknen_leine:before {
+.t_icon-trocknen_leine:before {
   content: "\e935";
 }
-.icon-trocknen_schatten:before {
+.t_icon-trocknen_schatten:before {
   content: "\e936";
 }
 

@@ -1,0 +1,269 @@
+@import "variables";
+
+@font-face {
+  font-family: 'textilpflege';
+  src:  url('#{$icomoon-font-path}/textilpflege.eot?dtgfw3');
+  src:  url('#{$icomoon-font-path}/textilpflege.eot?dtgfw3#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/textilpflege.ttf?dtgfw3') format('truetype'),
+    url('#{$icomoon-font-path}/textilpflege.woff?dtgfw3') format('woff'),
+    url('#{$icomoon-font-path}/textilpflege.svg?dtgfw3#textilpflege') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="t_icon-"], [class*=" t_icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'textilpflege' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.t_icon-waschen {
+  &:before {
+    content: $t_icon-waschen;
+  }
+}
+.t_icon-nicht_waschen {
+  &:before {
+    content: $t_icon-nicht_waschen;
+  }
+}
+.t_icon-handwaesche {
+  &:before {
+    content: $t_icon-handwaesche;
+  }
+}
+.t_icon-waschen_30ss {
+  &:before {
+    content: $t_icon-waschen_30ss;
+  }
+}
+.t_icon-waschen_30s {
+  &:before {
+    content: $t_icon-waschen_30s;
+  }
+}
+.t_icon-waschen_30 {
+  &:before {
+    content: $t_icon-waschen_30;
+  }
+}
+.t_icon-waschen_40ss {
+  &:before {
+    content: $t_icon-waschen_40ss;
+  }
+}
+.t_icon-waschen_40s {
+  &:before {
+    content: $t_icon-waschen_40s;
+  }
+}
+.t_icon-waschen_40 {
+  &:before {
+    content: $t_icon-waschen_40;
+  }
+}
+.t_icon-waschen_50s {
+  &:before {
+    content: $t_icon-waschen_50s;
+  }
+}
+.t_icon-waschen_50 {
+  &:before {
+    content: $t_icon-waschen_50;
+  }
+}
+.t_icon-waschen_60s {
+  &:before {
+    content: $t_icon-waschen_60s;
+  }
+}
+.t_icon-waschen_60 {
+  &:before {
+    content: $t_icon-waschen_60;
+  }
+}
+.t_icon-waschen_70s {
+  &:before {
+    content: $t_icon-waschen_70s;
+  }
+}
+.t_icon-waschen_70 {
+  &:before {
+    content: $t_icon-waschen_70;
+  }
+}
+.t_icon-waschen_95s {
+  &:before {
+    content: $t_icon-waschen_95s;
+  }
+}
+.t_icon-waschen_95 {
+  &:before {
+    content: $t_icon-waschen_95;
+  }
+}
+.t_icon-bleichen {
+  &:before {
+    content: $t_icon-bleichen;
+  }
+}
+.t_icon-nicht_bleichen {
+  &:before {
+    content: $t_icon-nicht_bleichen;
+  }
+}
+.t_icon-sauerstoffbleichen {
+  &:before {
+    content: $t_icon-sauerstoffbleichen;
+  }
+}
+.t_icon-trommeltrocknen {
+  &:before {
+    content: $t_icon-trommeltrocknen;
+  }
+}
+.t_icon-nicht_trommeltrocknen {
+  &:before {
+    content: $t_icon-nicht_trommeltrocknen;
+  }
+}
+.t_icon-trommeltrocknen_1 {
+  &:before {
+    content: $t_icon-trommeltrocknen_1;
+  }
+}
+.t_icon-trommeltrocknen_2 {
+  &:before {
+    content: $t_icon-trommeltrocknen_2;
+  }
+}
+.t_icon-buegeln {
+  &:before {
+    content: $t_icon-buegeln;
+  }
+}
+.t_icon-nicht_buegeln {
+  &:before {
+    content: $t_icon-nicht_buegeln;
+  }
+}
+.t_icon-buegeln_1 {
+  &:before {
+    content: $t_icon-buegeln_1;
+  }
+}
+.t_icon-buegeln_2 {
+  &:before {
+    content: $t_icon-buegeln_2;
+  }
+}
+.t_icon-buegeln_3 {
+  &:before {
+    content: $t_icon-buegeln_3;
+  }
+}
+.t_icon-professionelle_reinigung {
+  &:before {
+    content: $t_icon-professionelle_reinigung;
+  }
+}
+.t_icon-nicht_chemisch_reinigen {
+  &:before {
+    content: $t_icon-nicht_chemisch_reinigen;
+  }
+}
+.t_icon-professionelle_reinigung_fs {
+  &:before {
+    content: $t_icon-professionelle_reinigung_fs;
+  }
+}
+.t_icon-professionelle_reinigung_f {
+  &:before {
+    content: $t_icon-professionelle_reinigung_f;
+  }
+}
+.t_icon-professionelle_reinigung_pss {
+  &:before {
+    content: $t_icon-professionelle_reinigung_pss;
+  }
+}
+.t_icon-professionelle_reinigung_ps {
+  &:before {
+    content: $t_icon-professionelle_reinigung_ps;
+  }
+}
+.t_icon-Professionelle_reinigung_p {
+  &:before {
+    content: $t_icon-Professionelle_reinigung_p;
+  }
+}
+.t_icon-nicht_nassreinigen {
+  &:before {
+    content: $t_icon-nicht_nassreinigen;
+  }
+}
+.t_icon-professionelle_reinigung_wss {
+  &:before {
+    content: $t_icon-professionelle_reinigung_wss;
+  }
+}
+.t_icon-professionelle_reinigung_ws {
+  &:before {
+    content: $t_icon-professionelle_reinigung_ws;
+  }
+}
+.t_icon-professionelle_reinigung_w {
+  &:before {
+    content: $t_icon-professionelle_reinigung_w;
+  }
+}
+.t_icon-trocknen {
+  &:before {
+    content: $t_icon-trocknen;
+  }
+}
+.t_icon-trocknen_liegend_im_schatten {
+  &:before {
+    content: $t_icon-trocknen_liegend_im_schatten;
+  }
+}
+.t_icon-trocknen_liegend {
+  &:before {
+    content: $t_icon-trocknen_liegend;
+  }
+}
+.t_icon-trocknen_tropfnass_im_schatten {
+  &:before {
+    content: $t_icon-trocknen_tropfnass_im_schatten;
+  }
+}
+.t_icon-trocknen_tropfnass {
+  &:before {
+    content: $t_icon-trocknen_tropfnass;
+  }
+}
+.t_icon-trocknen_leine_im_schatten {
+  &:before {
+    content: $t_icon-trocknen_leine_im_schatten;
+  }
+}
+.t_icon-trocknen_leine {
+  &:before {
+    content: $t_icon-trocknen_leine;
+  }
+}
+.t_icon-trocknen_schatten {
+  &:before {
+    content: $t_icon-trocknen_schatten;
+  }
+}
+
